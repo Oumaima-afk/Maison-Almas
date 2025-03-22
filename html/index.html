@@ -235,21 +235,36 @@
       <div class="contact-content">
         <h2></h2>
         <form action="">
-          <div>
-            <label for=""></label>
-            <input type="text" />
+          <div class="form-nom">
+            <label class="contact-label" for="contact-label">Nom</label>
+            <input required type="text" class="contact-input" name="nom" />
           </div>
-          <div>
-            <label for=""></label>
-            <input type="text" />
+          <div class="form-email">
+            <label class="contact-label" for="contact-label">Email</label>
+            <input required type="email" class="email-input" name="email" />
           </div>
-          <div>
-            <label for=""></label>
-            <select name="" id=""></select>
+          <div class="form-services">
+            <label for="services-select">Services</label>
+            <select required name="services" id="services-select">
+              <option value="aucun">...</option>
+              <option value="gravure">Gravure éternelle</option>
+              <option value="offrir">L'Art d'offrir</option>
+              <option value="ateliers">Plongée dans nos ateliers</option>
+              <option value="sur-mesure">
+                Bijou sur-mesure, vous êtes l'artiste
+              </option>
+              <option value="réparation">Renaissance de bijou</option>
+            </select>
           </div>
-          <div>
-            <label for=""></label>
-            <textarea name="" id=""></textarea>
+          <div class="form-message">
+            <label for="message-service">Message</label>
+            <textarea
+              required
+              name="message"
+              id="message-service"
+              rows="5"
+              cols="33"
+            ></textarea>
           </div>
           <button></button>
         </form>
@@ -274,7 +289,9 @@
             </li>
           </ul>
         </div>
-        <p></p>
+        <p class="footer-copyright">
+          © 2025 Maison Almas - Tous droits réservés
+        </p>
       </div>
     </footer>
   </body>
