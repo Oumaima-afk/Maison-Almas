@@ -35,6 +35,6 @@
 ## 🚀 Pistes d’amélioration
 
 - Ajout de :
-  - **JavaScript léger** (scroll fluide, slider de témoignages)
+  - **JavaScript léger** (scroll fluide, slider de témoignages, afficher plus de produits)
   - **Animations CSS** supplémentaires (au scroll, transitions douces)
   - **Effets de chargement ou skeleton screen**
